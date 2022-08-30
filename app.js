@@ -3,6 +3,9 @@ const bodyParser = require("body-parser");
 const mongoose = require('mongoose');
 const timeout = require('connect-timeout');
 
+// Initialize DB:
+require('./initDB')();
+
 const app = express();
 
 // Create GET Request
