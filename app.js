@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const timeout = require('connect-timeout');
 
 // Initialize DB:
-require('./initDB')();
+// require('./initDB')();
 
 const app = express();
 
